@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:gravity="top|center">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Matricula: "
+            android:id="@+id/textView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textMatricula" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Bus TOKEN_UUID:"
+                android:id="@+id/textView"/>
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextUUID"
+                android:text="123456789"
+                android:layout_weight="1"/>
+    </LinearLayout>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Configurar"
+            android:id="@+id/buttonConf"/>
+
+    <Button
+            android:id="@+id/boton_arrancar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arrancar servicio"
+            android:nestedScrollingEnabled="false"
+            android:enabled="false"/>
+
+    <Button
+            android:id="@+id/boton_detener"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detener servicio"
+            android:enabled="false"/>
+
+</LinearLayout>

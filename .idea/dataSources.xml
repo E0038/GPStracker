@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="4013327456">
+    <data-source source="LOCAL" name="Sqlite (Xerial) - GPS_TRACKER" uuid="6ca6706d-4c53-4d0a-a9dc-106cf50e3609">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$USER_HOME$/GPS_TRACKER</jdbc-url>
+    </data-source>
+  </component>
+</project>
