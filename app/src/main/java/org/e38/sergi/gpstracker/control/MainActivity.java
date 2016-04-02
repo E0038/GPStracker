@@ -93,8 +93,8 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
                 startService(intent);
-                startService(new Intent(MainActivity.this,
-                        ServicioMusica.class));
+//                startService(new Intent(MainActivity.this,
+//                        ServicioMusica.class));
             }
         });
 
@@ -105,8 +105,8 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra(GpsTrackerService.KEY_MATRICULA, matricula);
 
                 //TODO change service
-                stopService(new Intent(MainActivity.this,
-                        ServicioMusica.class));
+//                stopService(new Intent(MainActivity.this,
+//                        ServicioMusica.class));
                 stopService(intent);
                 findViewById(R.id.buttonConf).setEnabled(true);
                 bttDetener.setEnabled(false);
